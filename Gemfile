@@ -15,11 +15,13 @@ group :development, :test do
   gem 'rack-test', '0.6.3'
   gem 'rack_session_access', '0.1.1'
 
-  gem 'byebug', '5.0.0'
+  gem 'byebug', '9.1.0'
   gem 'launchy', '2.4.3'
   gem 'rerun', '0.10.0'
 
   gem 'simplecov', '0.16.1'
   gem 'webmock', '3.3.0'
   gem 'ZenTest', '4.11.2'
+  gem 'ffi', '1.14.2', source: 'https://rubygems.org/'
+
 end
